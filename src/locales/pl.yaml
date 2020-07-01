@@ -1,0 +1,72 @@
+flag: 🇵🇱
+welcome: Czesc! Witam w BitcoinTalk SuperNotifier!
+ask_username: Jaki jest twoj pseudonim w BitcoinTalk?
+confirm_username: Czy twój pseudonim <b>${username}</b>?
+ask_username_again: Jaki jest więc twoj pseudonim w BitcoinTalk?
+ask_uid: Jaki jest twój BitcoinTalk UID?
+confirm_uid: Czy twój UID <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Jaki jest więc twój BitcoinTalk UID?
+dont_know: Nie wiem.
+help_uid: Oto jak można znaleźć swój UID. Po prostu wyślij go tutaj, kiedy będziesz gotowy.
+too_fast: Uspokój się! Za szybko mówisz.
+what_else: Co jeszcze chcesz zrobić?
+show_topics: 📢 Pokaż tematy
+show_commands: 📚 Pokaż rozkazy
+disable_mentions: ❌ Wyłącz Wspomnienia
+enable_mentions: ✅ Włącz Wspomnienia
+disable_merits: ❌ Wyłącz Merits
+enable_merits: ✅ Włącz Merits
+change_language: 🌎 Zmiana języka
+ask_language: Jakiego języka chcesz użyć?
+mentions_disabled: Gotowe! Wspomnienia są teraz wyłączone.
+mentions_enabled: Gotowe! Wspomnienia są teraz włączone.
+merits_disabled: Gotowe! Merits są teraz wyłączone.
+merits_enabled: Gotowe! Merits są teraz włączone.
+commands_title: Rozkazy
+commands_menu: otwiera menu.
+commands_start: ponownie pokazuje początkową konfigurację.
+commands_topic: dodaj temat do swojej listy obserwacyjnej.
+commands_topics: pokazuje tematy na liście obserwacyjnej.
+option_yes: Tak
+option_no: Nie
+ask_for_mentions: Czy chcesz włączyć powiadomienia o Wspomnienia?
+ask_for_mentions_yes: Wszystko dobrze! Powiadomimy cię o nowych Wspomnieniach.
+ask_for_mentions_no: Ok! Nie będziemy cię informować o nowych Wspomnieniach.
+ask_for_merits: Czy chcesz włączyć powiadomienia o Merits?
+ask_for_merits_yes: Wszystko dobrze! Powiadomimy cię o nowych Merits.
+ask_for_merits_no: Ok! Nie powiadomimy cię o nowych Merits.
+to_start_again: Żeby zacząć od nowa, po prostu uruchomij /start
+topic_removed_from_list: Temat <a href="${topic.link}">${topic.title}</a> został usunięty z listy śledzenia.
+invalid_topic_url: Adres URL tematu jest nieprawidłowy.
+topic_already_in_the_list: Już śledzisz ten temat.
+topic_added_in_the_list: Teraz śledzisz temat <a href="${topic}">${title}</a>
+something_went_wrong_topic: Coś poszło nie tak... zobacz, czy temat naprawdę istnieje.
+your_tracked_topics: Twoje śledzone tematy
+case_want_to_delete_tracked_posts: W przypadku, gdy chcesz usunąć któryś z nich, kliknij na odpowiedni przycisk.
+you_have_no_tracked_posts: Ops... Nie masz śledzonych Składków.
+you_can_add_some_with_topic_command: Możesz dodać kilka za pomocą komendy /topic .
+mentioned_notification: Zostałeś wymieniony przez <b>${author}</b> w <a href="${link}">${title}</a>
+reply_in_tracked_post_notification: Jest nowa odpowiedź przez  <b>${author}</b> w śledzonym temacie <a href="${link}">${title}</a>
+language_changed_success: Język został zmieniony.
+merit_notification: Otrzymałeś <b>${pluralize(amount, '</b>merit', '</b>merits')} od <b>${sender}</b> za <a href="${link}">${title}</a>
+processing: Processing...
+help_stuck: Przepraszam, nie zrozumiałem, co próbujesz zrobić.
+help_stuck2: P.S, jeśli jesteś w czymś uwięziony, zawsze możesz zrestartować bota z /start
+notifications: 🔊 Powiadomienia
+back: ↩ Wróć
+commands_alt: ustawia dodatkową nazwę wzmianek.
+show_ignore: 🚷 Pokaż listę ignorowanych
+your_ignore_list: <b>Twoja lista ignorowanych:</b>
+ignoring_topic: Teraz ignorujesz temat <a href="${addedTopic.link}">${addedTopic.title}</a>
+already_ignoring_topic: Ty już ignorujesz ten temat.
+ignoring_user: Teraz ignorujesz użytkownika <b>${username}</b>
+already_ignoring_user: Już ignorujesz tego użytkownika.
+empty_ignore_list: Nie masz nic na swojej liście ignorowanych.
+ignore_list_help: Dodaj użytkownika lub temat za pomocą <code>/ignore (url/username)</code>
+invalid_username: Niewłaściwa nazwa użytkownika.
+something_went_wrong: Coś się nie udało...
+run_start: uruchowaj /start ponownie.
+commands_ignore: pokazuje twoją listę ignorowanych tematów i użytkowników.
+commands_ignore_input: ignorować temat lub użytkownika.
+ignored_user_removed_from_list: Użytkownik <b>${username}</b> został usunięty z twojej listy ignorowanych.
+ignored_topic_removed_from_List: Temat <a href="${link}">${title}</a> został usunięty z twojej listy ignorowanych.

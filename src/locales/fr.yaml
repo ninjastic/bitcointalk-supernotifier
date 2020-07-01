@@ -1,0 +1,58 @@
+flag: 🇫🇷
+welcome: Bonjour! Bienvenue à BitcoinTalk SuperNotifier!
+ask_username: Quel est votre nom d'utilisateur BitcoinTalk ?
+confirm_username: Votre nom d'utilisateur est-il <b>${username}</b>?
+ask_username_again: Quel est donc votre nom d'utilisateur BitcoinTalk ?
+ask_uid: Quel est votre UID BitcoinTalk?
+confirm_uid: Votre UID est-il <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Quel est donc votre UID BitcoinTalk?
+dont_know: Je ne sais pas
+help_uid: Voici comment vous pouvez trouver votre UID. Envoyez-le ici quand vous êtes prêt.
+too_fast: Calmez-vous ! Vous parlez beaucoup trop vite.
+what_else: Que voulez-vous faire d'autre ?
+show_topics: 📢 Afficher les sujets
+show_commands: 📚 Afficher les commandes
+disable_mentions: ❌ Désactiver les mentions.
+enable_mentions: ✅ Activer les mentions
+disable_merits: ❌ Désactiver les merits
+enable_merits: ✅ Activer les mérites
+change_language: 🌎 Changer de langue
+ask_language: Quelle langue voulez-vous utiliser ?
+mentions_disabled: C'est fait ! Les mentions sont désormais désactivées.
+mentions_enabled: C'est fait ! Les mentions sont maintenant activées
+merits_disabled: C'est fait ! Les merits sont désormais désactivés.
+merits_enabled: C'est fait ! Les merits sont maintenant activés.
+commands_title: Commandes
+commands_menu: ouvre le menu.
+commands_start: montre à nouveau la configuration initiale.
+commands_topic: ajouter un sujet à votre liste de surveillance.
+commands_topics: montre les sujets de la liste de surveillance.
+option_yes: Oui
+option_no: Non
+ask_for_mentions: Souhaitez-vous activer les notifications de mention?
+ask_for_mentions_yes: Tout va bien ! Nous vous informerons des nouvelles mentions.
+ask_for_mentions_no: Ok ! Nous ne vous informerons pas des nouvelles mentions.
+ask_for_merits: Souhaitez-vous activer les notifications de merit?
+ask_for_merits_yes: Tout va bien ! Nous vous informerons des nouveaux merits.
+ask_for_merits_no: Ok ! Nous ne vous informerons pas de nouveaux merits.
+to_start_again: Pour recommencer, il suffit d'exécuter /start
+topic_removed_from_list: Le sujet <a>${topic.title}</a> a été retiré de la liste de suivi.
+invalid_topic_url: L'URL du sujet n'est pas valide.
+topic_already_in_the_list: Vous suivez déjà ce sujet.
+topic_added_in_the_list: Vous suivez maintenant le sujet <a href="${topic}">${title}</a>
+something_went_wrong_topic: Quelque chose s'est mal passé... Vérifier si le sujet existe vraiment.
+your_tracked_topics: Vos sujets suivis
+case_want_to_delete_tracked_posts: Si vous souhaitez supprimer l'un d'entre eux, cliquez sur le bouton correspondant ci-dessous.
+you_have_no_tracked_posts: Oups... Vous n'avez pas de postes surveillés.
+you_can_add_some_with_topic_command: Vous pouvez en ajouter avec la commande /topic.
+mentioned_notification: Vous avez été mentionné par <b>${author}</b> dans <a href="${link}">${title}</a>
+reply_in_tracked_post_notification: Il y a une nouvelle réponse par <b>${author}</b> dans le sujet suivi <a href="${link}">${title}</a>
+language_changed_success: La langue a été changée.
+merit_notification: Vous avez reçu <b>${pluralize(amount, '</b>merit', '</b>merits')} de <b>${sender}</b> pour <a href="${link}">${title}</a>
+processing: Traitement en cours...
+help_stuck: Désolé, je ne sais pas ce que vous essayez de faire.
+help_stuck2: P.S., si vous êtes bloqué dans quelque chose, vous pouvez toujours redémarrer le bot avec /start
+notifications: 🔊 Notifications
+back: ↩ Retour
+commands_alt: définit un nom secondaire pour les mentions.
+show_ignore: 🚷 Afficher la liste des ignorés

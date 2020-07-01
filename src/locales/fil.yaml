@@ -1,0 +1,58 @@
+flag: 🇵🇭
+welcome: Kamusta! Maligayang Pagdating sa BitcoinTalk SuperNotifier!
+ask_username: Ano ang iyong BitcoinTalk username?
+confirm_username: Ito ba ang iyong username <b>${username}</b>?
+ask_username_again: Ano ang iyong BitcoinTalk username, pagkatapos?
+ask_uid: Ano ang iyong BitcoinTalk UID?
+confirm_uid: Ito ba ang iyong UID <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Ano ang iyong BitcoinTalk UID, pagkatapos?
+dont_know: Hindi ko alam
+help_uid: Narito kung paano mo mahahanap ang iyong UID. Ipadala mo lang dito kapag handa kana.
+too_fast: Huminahon ka! Masyadong mabilis ang iyong pagsasalita.
+what_else: Ano pa ang gusto mong gawin?
+show_topics: 📢 Ipakita ang mga Paksa
+show_commands: 📚 Ipakita ang Commands
+disable_mentions: ❌ Hindi pinagana ang Mentions
+enable_mentions: ✅ Pinagana ang Mentions
+disable_merits: ❌ Hindi pinagana ang Merits
+enable_merits: ✅ Pinagana ang Merits
+change_language: 🌎 Baguhin ang Wika
+ask_language: Aling Wika ang nais mong gamitin?
+mentions_disabled: Tapos! Mentions ay hindi Pinagana.
+mentions_enabled: Tapos! Mentions ay Pinagana.
+merits_disabled: Tapos! Merits ay hindi Pinagana.
+merits_enabled: Tapos! Merits ay Pinagana.
+commands_title: Kautosan
+commands_menu: buksan ang menu.
+commands_start: ipakita ang initial setup muli.
+commands_topic: idagdag ang topic sa iyong watching list.
+commands_topics: ipakita ang topics sa iyong watching list.
+option_yes: Oo
+option_no: Hindi
+ask_for_mentions: Gusto mo bang paganahin ang mention notifications?
+ask_for_mentions_yes: Magaling! Ipaalam namin kung merong bagong mentions.
+ask_for_mentions_no: Ok! Hindi namin ipaalam kung merong bagong mentions.
+ask_for_merits: Gusto mo bang paganahin ang merits notifications?
+ask_for_merits_yes: Magaling! Ipaalam namin kung merong bagong merits.
+ask_for_merits_no: Ok! Hindi namin ipaalam kung merong bagong merits.
+to_start_again: Upang simulan muli, pindutin lamang ang /start
+topic_removed_from_list: Ang topic <a href="${topic.link}">${topic.title}</a> ay tinanggal sa tracking list.
+invalid_topic_url: Ang topic URL ay hindi wasto.
+topic_already_in_the_list: Sinubaybayan mo na ang topic na ito.
+topic_added_in_the_list: Sinubaybayan mo na ang topic na ito <a href="${topic}">${title}</a>
+something_went_wrong_topic: Parang may mali... tingnan kung meron naba talaga ang topic na ito.
+your_tracked_topics: Ang iyong sinubaybayang topics
+case_want_to_delete_tracked_posts: Kung sakaling nais mong alisin ang alinman sa mga ito, pindutin lamang ang pindutan na nasa baba.
+you_have_no_tracked_posts: Ops... Wala kang sinubaybayang posts.
+you_can_add_some_with_topic_command: Maaari kang magdagdag ng ilan gamit ang /topic command.
+mentioned_notification: Ikaw ay binanggit ni <b>${author}</b> sa <a href="${link}">${title}</a>
+reply_in_tracked_post_notification: May bagong reply ni <b>${author}</b> sa sinubaybayang mong topic <a href="${link}">${title}</a>
+language_changed_success: Ang Wika ay nabago.
+merit_notification: Nakatanggap ka ng <b>${pluralize(amount, '</b>merit', '</b>merits')} mula kay <b>${sender}</b> para sa <a href="${link}">${title}</a>
+processing: Pinoproseso...
+help_stuck: Paumanhin, Hindi ko maintindihan ang iyong mga ginagawa.
+help_stuck2: P.S, kung ikaw ay natigil sa isang bagay, maaari mong palaging i-restart ang bot sa pamagitan ng /start
+notifications: 🔊 Mga Abiso
+back: ↩ Bumalik
+commands_alt: nagtatakda ng isang pangalawang pangalan para sa mga pagbanggit.
+show_ignore: 🚷 Ipakita ang Ignore List

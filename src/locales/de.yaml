@@ -1,0 +1,72 @@
+flag: 🇩🇪
+welcome: Hallo! Willkommen beim Bitcointalk SuperNotifier!
+ask_username: Wie lautet dein Bitcointalk Username?
+confirm_username: Ist dieser Username korrekt <b>${username}</b>?
+ask_username_again: Wie lautet dein Bitcointalk Username denn sonst?
+ask_uid: Wie lautet deine deine Bitcointalk UID?
+confirm_uid: Ist deine UID <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Wie lautet deine Bitcointalk UID denn sonst?
+dont_know: Ich weiß es nicht.
+help_uid: So kannst du deine UID herausfinden. Bitte direkt hier eingeben.
+too_fast: Nur mit der Ruhe! Du bist mir etwas zu schnell.
+what_else: Was möchtest du sonst machen?
+show_topics: 📢 Beiträge zeigen
+show_commands: 📚 Kommandos Zeigen
+disable_mentions: ❌ Erwähnungen deaktivieren
+enable_mentions: ✅ Erwähnungen aktivieren
+disable_merits: ❌ Merits deaktivieren
+enable_merits: ✅ Merits aktivieren
+change_language: 🌎 Sprache ändern
+ask_language: Welche Sprache möchtest du verwenden?
+mentions_disabled: Erledigt! Erwähnungen sind jetzt deaktiviert.
+mentions_enabled: Erledigt! Erwähnungen sind jetzt aktiviert.
+merits_disabled: Erledigt! Merits sind jetzt deaktiviert.
+merits_enabled: Erledigt! Merits sind jetzt aktiviert.
+commands_title: Kommandos
+commands_menu: Öffnet das Menü.
+commands_start: Zeigt das initial Setup erneut.
+commands_topic: Füge einen Beitrag zur Watch-List hinzu.
+commands_topics: Zeigt die Beiträge der Watch-List.
+option_yes: Ja
+option_no: Nein
+ask_for_mentions: Möchtest du Benachrichtigungen für Erwähnungen aktivieren?
+ask_for_mentions_yes: Alles gut! Du wirst bei Erwähnungen benachrichtigt.
+ask_for_mentions_no: OK! Du wirst bei Erwähnungen nicht mehr benachrichtigt.
+ask_for_merits: Möchtest du Benachrichtigungen für neue Merits aktivieren?
+ask_for_merits_yes: Alles gut! Du wirst bei neuen Merits benachrichtigt.
+ask_for_merits_no: OK! Du wirst bei neuen Merits nicht mehr benachrichtigt.
+to_start_again: Um neu zu starten bitte /start verwenden.
+topic_removed_from_list: Beitrag <a href="${topic.link}">${topic.title}</a> wurde von der Watch-List entfernt.
+invalid_topic_url: Diese URL ist falsch.
+topic_already_in_the_list: Du beobachtest diesen Beitrag bereits.
+topic_added_in_the_list: Du beobachtest diesen Beitrag ab sofort <a href="${topic}">${title}</a>
+something_went_wrong_topic: Das ging schief... Kontrolliere bitte ob es diesen Beitrag gibt.
+your_tracked_topics: Deine beobachteten Themen
+case_want_to_delete_tracked_posts: Wenn du etwas davon entfernen möchtest bitte den entsprechende Button unten klicken.
+you_have_no_tracked_posts: Ups... Du hast keine beobachteten Beiträge.
+you_can_add_some_with_topic_command: Du kannst per /topic hinzufügen.
+mentioned_notification: Du wurdest von <b>${author}</b> in <a href="${link}">${title}</a> erwähnt.
+reply_in_tracked_post_notification: Es gibt eine neue Antwort von <b>${author}</b> in diesem beobachteten Thread <a href="${link}">${title}</a>.
+language_changed_success: Die Sprache wurde geändert.
+merit_notification: Du hast <b>${pluralize(amount, '</b>Merit', '</b>Merits')} von <b>${sender}</b> für <a href="${link}">${title}</a> erhalten.
+processing: Lädt...
+help_stuck: Sorry, ich weiß nicht was du machen wolltest.
+help_stuck2: Falls du irgendwo ein Problem hast kannst du jederzeit per /start neu starten.
+notifications: 🔊 Benachrichtigungen
+back: ↩ Komm zurück
+commands_alt: Legt einen sekundären Namen für Erwähnungen fest.
+show_ignore: 🚷 Ignorierliste Zeigen
+your_ignore_list: <b>Deine Ignorelist:</b>
+ignoring_topic: Du ignorierst jetzt folgenden Thread <a href="${addedTopic.link}">${addedTopic.title}</a>
+already_ignoring_topic: Du ignorierst diesen Thread bereits.
+ignoring_user: Du ignorierst jetzt diesen User <b>${username}</b>
+already_ignoring_user: Du ignorierst diesen User bereits.
+empty_ignore_list: Du hast keine Threads auf deiner Ignorelist.
+ignore_list_help: Füge einen User oder Thread per <code>/ignore (url/username)</code> hinzu.
+invalid_username: Falscher Username.
+something_went_wrong: Da ging etwas schief...
+run_start: Verwende /start für einen Neustart.
+commands_ignore: Zeigt eine Liste deiner ignorierten User und Threads.
+commands_ignore_input: Ignoriere einen User oder Thread.
+ignored_user_removed_from_list: Der User <b>${username}</b> wurde von deiner Ignorelist entfernt.
+ignored_topic_removed_from_List: Thread <a href="${link}">${title}</a> wurde von deiner Ignorelist entfernt.

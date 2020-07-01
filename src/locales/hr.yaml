@@ -1,0 +1,72 @@
+flag: 🇭🇷
+welcome: Pozdrav! Dobrodošli na BitcoinTalk SuperNotifier!
+ask_username: Koje je tvoje BitcoinTalk korisničko ime?
+confirm_username: Je li tvoje korisničko ime <b>${username}</b>?
+ask_username_again: Koje je onda tvoje BitcoinTalk korisničko ime?
+ask_uid: Koji je tvoj BitcoinTalk UID broj?
+confirm_uid: Je li vaš UID <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Koji je onda tvoj BitcoinTalk UID broj?
+dont_know: Ne znam
+help_uid: Evo kako možeš pronaći svoj UID. Samo ga pošalji ovdje kad budeš spreman.
+too_fast: Polako! Prebrzo govoriš.
+what_else: Što još želiš?
+show_topics: 📢 Prikaži teme
+show_commands: 📚 Prikaži naredbe
+disable_mentions: ❌ Onemogući spomene
+enable_mentions: ✅ Omogući spomene
+disable_merits: ❌ Onemogući merite
+enable_merits: ✅ Omogući merite
+change_language: 🌎 Promijeni jezik
+ask_language: Koji jezik želiš koristiti?
+mentions_disabled: Gotovo! Spomeni su sada onemogućeni.
+mentions_enabled: Gotovo! Spomeni su sada omogućeni.
+merits_disabled: Gotovo! Meriti su sada onemogućeni.
+merits_enabled: Gotovo! Meriti su sada omogućeni.
+commands_title: Naredbe
+commands_menu: otvara izbornik.
+commands_start: ponovo prikazuje početnu postavku.
+commands_topic: dodajte temu na vašu listu za praćenje.
+commands_topics: prikazuje teme na vašoj listi zs praćenje.
+option_yes: Da
+option_no: Ne
+ask_for_mentions: Želiš li omogućiti obavijesti o spomenima?
+ask_for_mentions_yes: Sve je u redu! Obavijestit ćemo te o novim spomenima.
+ask_for_mentions_no: OK! Nećemo te više obavještavati o novim spomenima.
+ask_for_merits: Želiš li omogućiti obavijesti o meritima?
+ask_for_merits_yes: Sve je u redu! Obavijestit ćemo te o novim meritima.
+ask_for_merits_no: OK! Nećemo te više obavještavati o novim meritima.
+to_start_again: Da počneš ispočetka, samo pokrenite /start
+topic_removed_from_list: The topic <a href="${topic.link}">${topic.title}</a> je uklonjena s popisa za praćenje.
+invalid_topic_url: URL teme je nevažeći.
+topic_already_in_the_list: Već pratiš ovu temu.
+topic_added_in_the_list: Sada pratiš temu <a href="${topic}">${title}</a>
+something_went_wrong_topic: Nešto je pošlo po zlu... pogledajte postoji li stvarno ta tema.
+your_tracked_topics: Tvoje praćene teme
+case_want_to_delete_tracked_posts: U slučaju da ih želiš ukloniti, klikni donji gumb ispod njih.
+you_have_no_tracked_posts: Ops... Nemaš praćenih postova.
+you_can_add_some_with_topic_command: Možeš dodati neke teme pomoću naredbe /topic.
+mentioned_notification: Spomenuo te je <b>${author}</b> u <a href="${link}">${title}</a>
+reply_in_tracked_post_notification: Novi odgovor od <b>${author}</b> u praćenoj temi <a href="${link}">${title}</a>
+language_changed_success: Jezik je promijenjen.
+merit_notification: Dobio si <b>${pluralize(amount, '</b>merit', '</b>merita')} od <b>${sender}</b> za <a href="${link}">${title}</a>
+processing: Obrada...
+help_stuck: Oprosti, nisam razumio što pokušavaš učiniti.
+help_stuck2: P.S, ako si negde zaglavio, uvijek možeš ponovo pokrenuti bot /start
+notifications: 🔊 Obavijesti
+back: ↩ Vrati se
+commands_alt: postavlja sporedno ime za spominjanje.
+show_ignore: 🚷 Prikaži popis ignoriranja
+your_ignore_list: <b>Tvoj popis ignoriranja:</b>
+ignoring_topic: Sada ignoriraš temu <a href="${addedTopic.link}">${addedTopic.title}</a>
+already_ignoring_topic: Već ignoriraš ovu temu.
+ignoring_user: Sada ignoriraš korisnika <b>${username}</b>
+already_ignoring_user: Već ignoriraš ovog korisnika.
+empty_ignore_list: Nemaš ništa na popisu ignoriranja.
+ignore_list_help: Dodajte korisnika ili temu sa <code>/ignore (url/username)</code>
+invalid_username: Nevažeće korisničko ime.
+something_went_wrong: Nešto je pošlo po zlu...
+run_start: pokreni /start ponovo.
+commands_ignore: prikazuje tvoj popis ignoriranih tema i korisnika.
+commands_ignore_input: ignoriraj temu ili korisnika.
+ignored_user_removed_from_list: Korisnik <b>${username}</b> je uklonjen iz tvog popisa ignoriranja.
+ignored_topic_removed_from_List: Tema <a href="${link}">${title}</a> je uklonjena iz tvog popisa ignoriranja.

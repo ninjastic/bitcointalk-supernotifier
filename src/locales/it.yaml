@@ -1,0 +1,72 @@
+flag: 🇮🇹
+welcome: Ciao! Benvenuto in BitcoinTalk SuperNotifier!
+ask_username: Qual è il tuo nome utente BitcoinTalk?
+confirm_username: Il tuo nome utente è <b>${username}</b>?
+ask_username_again: Qual è il tuo nome utente BitcoinTalk, allora?
+ask_uid: Qual è il tuo UID BitcoinTalk?
+confirm_uid: Il tuo UID è <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Allora, qual è il tuo UID BitcoinTalk?
+dont_know: Non lo so
+help_uid: Ecco come trovare il tuo UID. Invialo qui quando sei pronto.
+too_fast: Calmati! Stai parlando troppo in fretta.
+what_else: Cos'altro vuoi fare?
+show_topics: 📢 Mostra i topic
+show_commands: 📚 Mostra i comandi
+disable_mentions: ❌ Disabilita le menzioni
+enable_mentions: ✅ Abilita menzioni
+disable_merits: ❌ Disabilita i meriti
+enable_merits: ✅ Abilita meriti
+change_language: 🌎 Cambia lingua
+ask_language: Quale lingua vuoi usare?
+mentions_disabled: Fatto! Le menzioni sono disabilitate.
+mentions_enabled: Fatto! Le menzioni sono abilitate
+merits_disabled: Fatto! I meriti ora disabilitati.
+merits_enabled: Fatto! I meriti sono abilitati
+command_title: Comandi
+command_menu: Apri il menu.
+command_start: Mostra di nuovo la configurazione iniziale.
+command_topic: Aggiungi un topic alla tua watchlist.
+command_topics: Mostra i topic nella watch list.
+option_yes: Si
+option_no: No
+ask_for_mentions: Vuoi abilitare le notifiche per le menzioni?
+ask_for_mentions_yes: Perfetto! Ti notificheremo le nuove menzioni.
+ask_for_mentions_no: Ok! Non Ti notificheremo di nuove menzioni.
+ask_for_merits: Vuoi abilitare le notifiche dei merit?
+ask_for_merits_yes: Perfetto! Ti notificheremo i nuovi meriti.
+ask_for_merits_no: Ok! Non Ti notificheremo i nuovi meriti.
+to_start_again: Per ricominciare, basta eseguire /start
+topic_removed_from_list: Il topic <a href="${topic.link}">${topic.title}</a> è stato rimosso dalla watchlist.
+invalid_topic_url: L'URL del topic non è valido.
+topic_already_in_the_list: Stai già monitorando questo topic.
+topic_added_in_the_list: Ora stai monitorando il topic <a href="${topic}">${title}</a>
+something_went_wrong_topic: Qualcosa è andato storto... controlla se il topic esiste davvero.
+your_tracked_topics: I tuoi topic monitorati
+case_want_to_delete_tracked_posts: Se desideri rimuoverne uno, fai clic sul rispettivo pulsante sotto.
+you_have_no_tracked_posts: Ops ... Non hai post tracciati.
+you_can_add_some_with_topic_command: Puoi aggiungerne alcuni con il comando /topic.
+mentioned_notification: Sei stato menzionato da <b> $ {autore} </b> in <a href="${link}"> $ {title} </a>
+reply_in_tracked_post_notification: C'è una nuova risposta di <b>${author}</b> nel topic tracciato <a href="${link}">${title}</a>
+language_changed_success: La lingua è stata cambiata.
+merit_notification: Hai ricevuto <b>${pluralize(amount, '</b>merito', '</b>meriti')} da <b>${sender}</b> per <a href="${link}">${title}</a>
+elaborazione: Elaborazione in corso...
+help_stuck: Mi dispiace, non ho capito cosa stai cercando di fare.
+help_stuck2: P.S. Se sei bloccato in qualcosa, puoi sempre riavviare il bot con /start
+notifications: 🔊 Notifiche
+back: ↩ Ritorno
+commands_alt: imposta un nome secondario per le menzioni.
+show_ignore: 🚷 Mostra Ignora elenco
+your_ignore_list: <b>Ignore List:</b>
+ignoring_topic: Stai ignorando il thread <a href="${addedTopic.link}">${addedTopic.title}</a>
+already_ignoring_topic: Stai già ignorando questo thread.
+ignoring_user: Da ora stai ignorando l’utente <b>${username}</b>
+already_ignoring_user: Stai già ignorando questo utente.
+empty_ignore_list: Non hai nulla nella tua Ignore list.
+ignore_list_help: Aggiungi un utente o un thread con <code>/ignore (url/username)</code>
+invalid_username: Username non valido.
+something_went_wrong: Qualcosa è andato storto...
+run_start: Invia nuovamente /start
+commands_ignore: Mostra la tua lista di Utenti e thread ignorati.
+commands_ignore_input: Ignora un utente o un thread.
+ignored_user_removed_from_list: L’utente <b>${username}</b> è stato rimosso dalla tua ignore list.
+ignored_topic_removed_from_List: Il thread <a href="${link}">${title}</a> è stato rimosso dalla tua ignore list.

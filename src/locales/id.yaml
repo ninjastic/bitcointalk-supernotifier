@@ -1,0 +1,58 @@
+flag: 🇮🇩
+welcome: Halo! Selamat datang di BitcoinTalk SuperNotifier!
+ask_username: Apa nama pengguna Bitcointalk Anda?
+confirm_username: Apakah nama pengguna Anda <b>${username}</b>?
+ask_username_again: Apa nama pengguna Bitcointalk Anda?
+ask_uid: Masukkan BitcoinTalk UID Anda?
+confirm_uid: Apakah UID Anda <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Masukkan BitcoinTalk UID Anda?
+dont_know: Saya tidak mengerti!
+help_uid: Di sini cara mengetahui UID Anda. Kemudian kirim kalau sudah siap.
+too_fast: Pelan-pelan! Anda mengirimkan pesan terlalu cepat.
+what_else: Ada hal lain yang ingin Anda lakukan?
+show_topics: 📢 Lihat topik
+show_commands: 📚 Lihat Perintah
+disable_mentions: ❌ Matikan Mention/Sebutan
+enable_mentions: ✅ Aktifkan Mention/Sebutan
+disable_merits: ❌ Matikan Merit
+enable_merits: ✅ Aktifkan Merit
+change_language: 🌎 Ubah Bahasa
+ask_language: Bahasa yang ingin Anda gunakan?
+mentions_disabled: Selesai! Mention telah dimatikan.
+mentions_enabled: Selesai! Mention berhasil diaktifkan.
+merits_disabled: Selesai! Merit sekarang dimatikan.
+merits_enabled: Selesai! Merit berhasil diaktifkan.
+commands_title: Perintah
+commands_menu: Buka menu.
+commands_start: Lihat pengaturan awal lagi.
+commands_topic: Tambahkan topik pada <i>watching list</i> Anda.
+commands_topics: Lihat topik pada <i>watching list</i> Anda.
+option_yes: Ya
+option_no: Tidak
+ask_for_mentions: Apakah Anda ingin mengaktifkan pemberitahuan mention?
+ask_for_mentions_yes: Baiklah! Kami akan memberitahukan Anda apabila ada mention baru.
+ask_for_mentions_no: Oke! Kami tidak akan memberitahukan Anda apabila ada mention baru.
+ask_for_merits: Apakah Anda ingin mengaktifkan pemberitahuan Merit?
+ask_for_merits_yes: Baiklah! Kami akan memberitahukan Anda apabila mendapatkan tambahan Merit baru.
+ask_for_merits_no: Oke! Kami tidak akan memberitahukan Anda apabila mendapatkan tambahan Merit baru.
+to_start_again: Untuk memulai kembali, silakan jalankan /start
+topic_removed_from_list: Topik <a href="${topic.link}">${topic.title}</a> telah dihapus dari daftar pelacakan/pemantauan.
+invalid_topic_url: URL topik tidak valid.
+topic_already_in_the_list: Anda telah mengikuti topik ini.
+topic_added_in_the_list: Anda sekarang telah mengikuti topik <a href="${topic}">${title}</a>
+something_went_wrong_topic: Ada kesalahan... Lihat kembali apakah topik masih tersedia.
+your_tracked_topics: Topik yang Anda ikuti
+case_want_to_delete_tracked_posts: Jika Anda ingin menghapus satu atau beberapa dari daftar, silakan klik tombol berikut.
+you_have_no_tracked_posts: Ops... Tidak ada kiriman yang Anda ikuti.
+you_can_add_some_with_topic_command: Anda dapat menambahkan dengan memasukkan perintah /topic.
+mentioned_notification: Anda telah disebut/dimention oleh <b>${author}</b> pada <a href="${link}">${title}</a>
+reply_in_tracked_post_notification: Ada balasan baru dari <b>${author}</b> pada topik yang Anda ikuti <a href="${link}">${title}</a>
+language_changed_success: Bahasa telah diubah.
+merit_notification: Anda menerima <b>${pluralize(amount, '</b>merit', '</b>merits')} dari <b>${sender}</b> untuk <a href="${link}">${title}</a>
+processing: Sedang memproses...
+help_stuck: Maaf, Saya tidak mengerti apa yang ingin Anda lakukan.
+help_stuck2: P.S, Jika Anda tidak dapat melakukan apapun, Anda dapat memulai ulang bot dengan perintah /start.
+notifications: 🔊 Notifikasi
+back: ↩ Kembali
+commands_alt: menetapkan nama sekunder untuk menyebutkan.
+show_ignore: 🚷 Tampilkan Daftar Abaikan

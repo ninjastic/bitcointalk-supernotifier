@@ -1,0 +1,72 @@
+flag: 🇧🇷
+welcome: Olá! Bem-vindo ao BitcoinTalk SuperNotifier!
+ask_username: Qual é o seu nome de usuário no BitcoinTalk?
+confirm_username: O seu nome de usuário é <b>${username}</b>?
+ask_username_again: Então, qual é o seu nome de usuário?
+ask_uid: Qual é o seu UID do BitcoinTalk)?
+confirm_uid: O seu UID é <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Então, qual é o seu UID?
+dont_know: Eu não sei
+help_uid: Aqui está como você pode achar o seu UID. É só mandá-lo aqui quando estiver pronto.
+too_fast: Calma! Você está falando muito rápido.
+what_else: O que mais gostaria de fazer?
+show_topics: 📢 Ver Tópicos
+show_commands: 📚 Ver Comandos
+disable_mentions: ❌ Desabilitar Menções
+enable_mentions: ✅ Habilitar Menções
+disable_merits: ❌ Desabilitar Merits
+enable_merits: ✅ Habilitar Merits
+change_language: 🌎 Mudar Idioma
+ask_language: Qual idioma você gostaria de utilizar?
+mentions_disabled: Pronto! As menções foram desabilitadas.
+mentions_enabled: Pronto! As menções foram habilitadas.
+merits_disabled: Pronto! Os merits foram desabilitadas.
+merits_enabled: Pronto! Os merits foram habilitadas.
+commands_title: Comandos
+commands_menu: mostra o menu.
+commands_start: mostra o setup inicial novamente.
+commands_topic: adiciona um tópico à sua lista.
+commands_topics: mostra os tópicos da sua conta.
+option_yes: Sim
+option_no: Não
+ask_for_mentions: Gostaria de habilitar as notificações de menção?
+ask_for_mentions_yes: Tudo certo! Nós vamos te notificar sobre novas menções.
+ask_for_mentions_no: Ok! Nós não vamos te notificar sobre novas menções.
+ask_for_merits: Gostaria de habilitar as notificações de merits?
+ask_for_merits_yes: Tudo certo! Nós vamos te notificar sobre novos merits.
+ask_for_merits_no: Ok! Nós não vamos te notificar sobre novos merits.
+to_start_again: Para começar de novo, é só digitar /start
+topic_removed_from_list: O tópico <a href="${topic.link}">${topic.title}</a> foi removido da sua lista.
+invalid_topic_url: O URL do tópico é inválido.
+topic_already_in_the_list: Você já está seguindo esse tópico.
+topic_added_in_the_list: Agora você está seguindo o tópico <a href="${topic}">${title}</a>
+something_went_wrong_topic: Algúma coisa deu errada... veja se esse tópico realmente existe.
+your_tracked_topics: Tópicos que você segue
+case_want_to_delete_tracked_posts: Caso queira remover um deles, clique em seu respectivo botão abaixo.
+you_have_no_tracked_posts: Ops... Você não está seguindo nenhum tópico.
+you_can_add_some_with_topic_command: Você pode adicionar algúm com o comando /topic.
+mentioned_notification: Você foi mencionado por <b>${author}</b> em <a href="${link}">${title}</a>
+reply_in_tracked_post_notification: Há um novo post feito por <b>${author}</b> no tópico <a href="${link}">${title}</a>
+language_changed_success: O idioma foi alterado.
+merit_notification: Você recebeu <b>${pluralize(amount, '</b>merit', '</b>merits')} de <b>${sender}</b> por <a href="${link}">${title}</a>
+processing: Processando...
+help_stuck: Desculpe, eu não entendi o que você está tentando fazer.
+help_stuck2: P.S, se você estiver preso em alguma parte, você pode sempre resetar o bot com /start
+notifications: 🔊 Notificações
+back: ↩ Voltar
+commands_alt: define um nome secundário para menções.
+show_ignore: 🚷 Ver Lista de Ignorados
+your_ignore_list: <b>Sua lista de ignorados:</b>
+ignoring_topic: Você está ignorando o tópico <a href="${addedTopic.link}">${addedTopic.title}</a>
+already_ignoring_topic: Você já está ignorando esse tópico.
+ignoring_user: Você está ignorando o usuário <b>${username}</b>
+already_ignoring_user: Voce já está ignorando esse usuário.
+empty_ignore_list: Você não tem nada na sua lista de ignorados.
+ignore_list_help: Adicione um tópico ou usuário com <code>/ignore (url/username)</code>
+invalid_username: Nome de Usuário inválido.
+something_went_wrong: Algo deu errado...
+run_start: use /start novamente.
+commands_ignore: mostra a sua lista de tópicos e usuários ignorados..
+commands_ignore_input: ignora um tópico ou usuário.
+ignored_user_removed_from_list: O usuário <b>${username}</b> foi removido da sua lista de ignorados.
+ignored_topic_removed_from_List: O tópico <a href="${link}">${title}</a> foi removido da sua lista de ignorados.

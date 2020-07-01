@@ -1,0 +1,72 @@
+flag: 🇬🇧
+welcome: Hello! Welcome to BitcoinTalk SuperNotifier!
+ask_username: What is your BitcoinTalk username?
+confirm_username: Is your username <b>${username}</b>?
+ask_username_again: What is your BitcoinTalk username, then?
+ask_uid: What is your BitcoinTalk UID?
+confirm_uid: Is your UID <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: What is your BitcoinTalk UID, then?
+dont_know: I don't know
+help_uid: Here is how you can find your UID. Just send it here when you are ready.
+too_fast: Calm down! You are talking way too fast.
+what_else: What else do you want to do?
+show_topics: 📢 Show Topics
+show_commands: 📚 Show Commands
+disable_mentions: ❌ Disable Mentions
+enable_mentions: ✅ Enable Mentions
+disable_merits: ❌ Disable Merits
+enable_merits: ✅ Enable Merits
+change_language: 🌎 Change Language
+ask_language: Which language do you want to use?
+mentions_disabled: Done! Mentions are now disabled.
+mentions_enabled: Done! Mentions are now enabled
+merits_disabled: Done! Merits are now disabled.
+merits_enabled: Done! Merits are now enabled
+commands_title: Commands
+commands_menu: opens the menu.
+commands_start: shows the initial setup again.
+commands_topic: add a topic to your watching list.
+commands_topics: shows the topics in the watching list.
+commands_alt: sets an secondary name for mentions.
+option_yes: Yes
+option_no: No
+ask_for_mentions: Do you want to enable mention notifications?
+ask_for_mentions_yes: All good! We will notify you of new mentions.
+ask_for_mentions_no: Ok! We won't notify you of new mentions.
+ask_for_merits: Do you want to enable merits notifications?
+ask_for_merits_yes: All good! We will notify you of new merits.
+ask_for_merits_no: Ok! We won't notify you of new merits.
+to_start_again: To start again, just run /start
+topic_removed_from_list: The topic <a href="${topic.link}">${topic.title}</a> has been removed from the tracking list.
+invalid_topic_url: The topic URL is invalid.
+topic_already_in_the_list: You are already tracking this topic.
+topic_added_in_the_list: You are now tracking the topic <a href="${topic}">${title}</a>
+something_went_wrong_topic: Something went wrong... see if the topic really exists.
+your_tracked_topics: Your tracked topics
+case_want_to_delete_tracked_posts: In case you want to remove any of them, click on their respective button below.
+you_have_no_tracked_posts: Ops... You have no tracked posts.
+you_can_add_some_with_topic_command: You can add some with the /topic command.
+mentioned_notification: You have been mentioned by <b>${author}</b> in <a href="${link}">${title}</a>
+reply_in_tracked_post_notification: There is a new reply by <b>${author}</b> in the tracked topic <a href="${link}">${title}</a>
+language_changed_success: The language has been changed.
+merit_notification: You received <b>${pluralize(amount, '</b>merit', '</b>merits')} from <b>${sender}</b> for <a href="${link}">${title}</a>
+processing: Processing...
+help_stuck: Sorry, I didn't understand what you are trying to do.
+help_stuck2: P.S, if you are stuck into something, you can always restart the bot with /start
+notifications: 🔊 Notifications
+back: ↩ Go Back
+show_ignore: 🚷 Show Ignore List
+your_ignore_list: <b>Your ignore list:</b>
+ignoring_topic: You are now ignoring the topic <a href="${addedTopic.link}">${addedTopic.title}</a>
+already_ignoring_topic: You are already ignoring this topic.
+ignoring_user: You are now ignoring the user <b>${username}</b>
+already_ignoring_user: You are already ignoring this user.
+empty_ignore_list: You don't have anything on your ignore list.
+ignore_list_help: Add an user or topic with <code>/ignore (url/username)</code>
+invalid_username: Invalid username.
+something_went_wrong: Something went wrong...
+run_start: run /start again.
+commands_ignore: shows your list of ignored topics and users.
+commands_ignore_input: ignore a topic or an user.
+ignored_user_removed_from_list: The user <b>${username}</b> has been removed from your ignore list.
+ignored_topic_removed_from_List: The topic <a href="${link}">${title}</a> has been removed from your ignore list.

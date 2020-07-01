@@ -1,0 +1,72 @@
+flag: 🇪🇸
+welcome: ¡Buenas! ¡Bienvenido al Bot SuperNotifier de BitcoinTalk!
+ask_username: ¿Cual es tu nombre de usuario?
+confirm_username: ¿Es tu nombre de usuario <b>${username}</b>?
+ask_username_again: Entonces, ¿cual es tu nombre de usuario?
+ask_uid: ¿Podrías indicarme tu UID de BitcoinTalk?
+confirm_uid: ¿Tu UID es <a href="https://bitcointalk.org/index.php?action=profile;u=${uid}"><b>${uid}</b></a>?
+ask_uid_again: Entonces, ¿cual es tu UID?
+dont_know: No lo se
+help_uid: Puedes encontrar tu UID de la siguiente manera. Despues, simplemente mándamelo.
+too_fast: ¡Relajate! Estás hablando demasiado rápido.
+what_else: ¿Algo más que quieras hacer?
+show_topics: 📢 Mostrar hilos
+show_commands: 📚 Mostrar comandos
+disable_mentions: ❌ Desactivar menciones
+enable_mentions: ✅ Activar menciones
+disable_merits: ❌ Desactivar méritos
+enable_merits: ✅ Activar méritos
+change_language: 🌎 Cambiar idioma
+ask_language: ¿Qué idioma quieres utilizar?
+mentions_disabled: ¡Listo! Las menciones están ahora desactivadas.
+mentions_enabled: ¡Listo! Las menciones están ahora activadas.
+merits_disabled: ¡Listo! Los méritos están ahora desactivados.
+merits_enabled: ¡Listo! los méritos están ahora activados.
+commands_title: Comandos
+commands_menu: Abre el menu.
+commands_start: Muestra la configuración inicial.
+commands_topic: Añade un hilo a tu lista de seguimiento.
+commands_topics: Muestra los hilos en tu lista de seguimiento.
+option_yes: Si
+option_no: No
+ask_for_mentions: ¿Quieres activar las notificaciones por mención?
+ask_for_mentions_yes: ¡Todo listo! Te avisaré cuando te mencionen.
+ask_for_mentions_no: ¡De acuerdo! No te avisaré cuando te mencionen.
+ask_for_merits: ¿Quieres activar las notificaciones de méritos?
+ask_for_merits_yes: ¡Todo listo! Te avisaré cuando recibas méritos.
+ask_for_merits_no: ¡De acuerdo! No te avisaré cuando recibas méritos.
+to_start_again: Para volver a empezar, escribe /start
+topic_removed_from_list: El hilo <a href="${topic.link}">${topic.title}</a> ha sido eliminado de tu lista de seguimiento.
+invalid_topic_url: El URL del hilo no es válido.
+topic_already_in_the_list: Este hilo ya está en tu lista de seguimiento.
+topic_added_in_the_list: El hilo <a href="${topic}">${title}</a> ha sido añadido a tu lista de seguimiento.
+something_went_wrong_topic: Algo ha salido mal... comprueba que el hilo existe.
+your_tracked_topics: Los hilos que están en tu lista de seguimiento
+case_want_to_delete_tracked_posts: Si quieres eliminar alguno de estos, pincha su respectivo boton debajo.
+you_have_no_tracked_posts: Ops... No hay hilos en tu lista de seguimiento.
+you_can_add_some_with_topic_command: Puedes añadir alguno con el comando /topic .
+mentioned_notification: <b>${author}</b> te ha mencionado en el hilo <a href="${link}">${title}</a>
+reply_in_tracked_post_notification: Hay una nueva respuesta de <b>${author}</b> en el hilo <a href="${link}">${title}</a> de tu lista de seguimiento
+language_changed_success: El cambio de idioma ha sido un éxito.
+merit_notification: Has recibido <b>${pluralize(amount, '</b>mérito', '</b>méritos')} de <b>${sender}</b> en el hilo <a href="${link}">${title}</a>
+processing: Procesando...
+help_stuck: Lo siento, no entiendo nada de lo que estás intentando hacer.
+help_stuck2: P.S, si te has quedado atascado o pillado, siempre puedes intentar reiniciar el bot con /start
+notifications: 🔊 Notificaciones
+back: ↩ Vuelve
+commands_alt: establece un nombre secundario para las menciones.
+show_ignore: 🚷 Mostrar lista de ignorados
+your_ignore_list: <b>Tu lista de ignorados:</b>
+ignoring_topic: Has comenzado a ignorar el hilo <a href="${addedTopic.link}">${addedTopic.title}</a>
+already_ignoring_topic: Ya ignorabas este hilo.
+ignoring_user: Has comenzado a ignorar al usuario <b>${username}</b>
+already_ignoring_user: Ya ignorabas a este usuario.
+empty_ignore_list: Tu lista de ignorados está vacia.
+ignore_list_help: Añade un hilo o usuario con <code>/ignore (url/username)</code>
+invalid_username: Nombre de usuario no valido
+something_went_wrong: Algo ha salido mal...
+run_start: ejecuta /start de nuevo.
+commands_ignore: muestra tu lista de hilos y usuarios ignorados.
+commands_ignore_input: ignora un hilo o usuario.
+ignored_user_removed_from_list: Se ha eliminado al usuario <b>${username}</b> de tu lista de ignorados.
+ignored_topic_removed_from_List: Se ha eliminado el hilo <a href="${link}">${title}</a> de tu lista de ignorados.
